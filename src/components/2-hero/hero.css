@@ -23,7 +23,9 @@
 }
 
 .hero .content .image-title span {
-    color: blue;
+    margin-left: 15px;
+    font-size: 1.2rem;
+    color: #55B9EB;
 }
 
 .hero .content h2 {
