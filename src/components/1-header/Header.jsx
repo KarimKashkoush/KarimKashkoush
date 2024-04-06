@@ -40,7 +40,7 @@ export default function Header() {
             </nav>
 
             <section className="theme">
-                <button className="icon-moon-fill"></button>
+                <button className="icon-moon-stars"></button>
             </section>
 
             <section className="nav-icon">
