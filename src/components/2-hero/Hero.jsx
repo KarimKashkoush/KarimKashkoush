@@ -11,7 +11,7 @@ export default function Hero() {
                     <span className="icon-verified"></span>
                 </section>
                 <h2>front-end react developer</h2>
-                <p>Hi, I'm Karim Mohamed Kashkoush, a passionate Front-End React Developer</p>
+                <p>Hi, I&apos;m Karim Mohamed Kashkoush, a passionate Front-End React Developer.</p>
                 <section className="social">
                     <Link to=''><span className="icon-facebook"></span></Link>
                     <Link to=''><span className="icon-instagram"></span></Link>

@@ -13,9 +13,9 @@ html {
   --link-hover: rgb(45 212 191);
   --border: rgba(63, 63, 70, 0.4);
   --bg-color: #252529;
-
   --transition-3: all 0.3s;
 }
+
 
 * {
   margin: 0;
@@ -53,6 +53,14 @@ button:active {
   border: 2px solid var(--border);
 }
 
+@media (max-width: 450px) {
+  .container {
+    width: 93%;
+    margin-inline: auto;
+    background-color: var(--secondary);
+    border: 2px solid var(--border);
+  }
+}
 .container .content {
   padding-inline: 15px;
 }
