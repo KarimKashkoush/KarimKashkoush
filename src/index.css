@@ -18,6 +18,11 @@ html {
 }
 
 
+.light {
+  --pimary: #f6f6f6;
+  --secondary: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
