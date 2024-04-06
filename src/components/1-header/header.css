@@ -50,7 +50,8 @@
 
 .icon-moon-stars,
 .icon-menu,
-.icon-remove {
+.icon-remove,
+.icon-wb_sunny {
     padding: 10px;
     border: 2px solid var(--border);
     border-radius: 50%;
@@ -61,8 +62,10 @@
 }
 
 
-.icon-moon-stars {
+.icon-moon-stars,
+.icon-wb_sunny {
     font-size: 1.5rem;
+    color: var(--icon-theme-color);
 }
 
 
