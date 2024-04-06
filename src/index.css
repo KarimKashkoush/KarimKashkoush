@@ -81,3 +81,13 @@ section {
   border-bottom: 1px solid var(--border);
   margin-block: 3rem;
 }
+
+.title-section {
+  text-transform: capitalize;
+  background-color: var(--bg-color);
+  padding: 10px 45px;
+  border-radius: 100px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 50px;
+}

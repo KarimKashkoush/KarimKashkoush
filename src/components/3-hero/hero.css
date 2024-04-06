@@ -28,7 +28,7 @@
 .hero .content .image-title span {
     margin-left: 10px;
     font-size: 1.2rem;
-    color: #55B9EB;
+    color: #55b9eb;
 }
 
 .hero .content h2 {
@@ -89,14 +89,16 @@
     .hero .content h2 {
         font-size: 2rem;
     }
+
     .hero .content p {
         font-size: 1rem;
     }
+
     .hero .content .social a {
         font-size: 1.2rem;
     }
+
     .hero .content .cv {
         font-size: 1rem;
     }
 }
-

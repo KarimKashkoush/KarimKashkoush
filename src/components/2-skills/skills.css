@@ -1,0 +1,22 @@
+.skills .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.skills .content .skill {
+    width: 150px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: var(--transition-3);
+}
+
+
+.skills .content .skill img {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
