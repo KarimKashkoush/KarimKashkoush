@@ -1,6 +1,7 @@
 import "./hero.css"
 import { Link } from "react-router-dom"
 import Lottie from "lottie-react";
+// @ts-ignore
 import image from '../../../public/images/personal-image.png'
 import personalAnimation from '../../../public/animation/Animation - 1712407466275.json'
 export default function Hero() {
@@ -9,7 +10,7 @@ export default function Hero() {
             <section className="content">
                 <section className="image-title">
                     <img src={image} alt="" />
-                    <span className="icon-verified">12</span>
+                    <span className="icon-verified"></span>
                 </section>
                 <h2>front-end react developer</h2>
                 <p>Hi, I&apos;m Karim Mohamed Kashkoush, a passionate Front-End React Developer.</p>
