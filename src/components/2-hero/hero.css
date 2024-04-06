@@ -22,6 +22,10 @@
     width: 80px;
 }
 
+.hero .content .image-title span {
+    color: blue;
+}
+
 .hero .content h2 {
     text-transform: capitalize;
     font-size: 3rem;
