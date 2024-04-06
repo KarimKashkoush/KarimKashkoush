@@ -7,7 +7,7 @@ export default function Hero() {
         <section className="hero">
             <section className="content">
                 <section className="image-title">
-                    <img src="/public/images/personal-image.png" alt="" />
+                    <img src="../../../public/images/personal-image.png" alt="" />
                     <span className="icon-verified"></span>
                 </section>
                 <h2>front-end react developer</h2>
