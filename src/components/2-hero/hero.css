@@ -52,24 +52,10 @@
     font-size: 1.4rem;
 }
 
-.hero .content .cv {
-    display: block;
-    width: fit-content;
-    background-color: var(--bg-color);
-    padding: 10px 15px;
-    border-radius: 100px;
-    text-transform: capitalize;
+.hero .content .btn {
     margin-top: 50px;
-    font-size: 1.2rem;
-    transition: var(--transition-3);
-    border: 1px solid transparent;
-    border: 2px solid var(--border);
-
 }
 
-.hero .content .cv:hover {
-    border-color: var(--border-hover);
-}
 
 .hero .content .cv span {
     margin-left: 6px;

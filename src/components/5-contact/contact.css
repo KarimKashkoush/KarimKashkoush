@@ -9,14 +9,9 @@
     font-size: 18px;
     line-height: 1.6;
     text-transform: capitalize;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+    text-align: center;
 }
 
-.contact-us p span {
-    font-size: 22px;
-}
 
 .contact-us .content form input,textarea {
     display: block;
@@ -30,16 +25,12 @@
     color: var(--text-color);
     width: 450px;
 }
+
 .contact-us .content form input::placeholder,textarea::placeholder {
     color: var(--text-color);
 }
 
-.contact-us .content form button {
-    color: var(--text-color);
-    background-color: var(--bg-color);
-    font-size: 18px;
-    padding: 10px 15px;
-    border-radius: 5px;
+.contact-us .content form .btn {
     width: 120px;
 }
 

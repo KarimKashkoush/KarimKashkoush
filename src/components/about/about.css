@@ -43,21 +43,10 @@
     border-color: var(--border-hover);
 }
 
-.about .content .title .more {
-    display: block;
+.about .content .title .btn {
     margin: 15px 0 30px;
-    padding: 10px 15px;
-    border-radius: 100px;
-    background-color: var(--bg-color);
-    width: fit-content;
-    border: 1px solid transparent;
-    transition: var(--transition-3);
-    border: 2px solid var(--border);
 }
 
-.about .content .title .more:hover {
-    border-color: var(--border-hover);
-}
 
 @media (max-width: 1300px) {
     .about .content {

@@ -22,7 +22,7 @@ export default function Hero() {
                     <Link to='https://x.com/Karimkashkoush_?t=8jJ6CfDXwhZPUUYUAkBnrA&s=09' target='_blank'><span className="icon-x"></span></Link>
                     <Link to='https://github.com/KarimKashkoush' target='_blank'><span className="icon-github"></span></Link>
                 </section>
-                <a className='cv' href="https://drive.google.com/file/d/1iNvB3XwAods7lczZWYHnhteprQXbckJ9/view?usp=sharing" target='_blank'>download cv <span className="icon-cloud-download"></span></a>
+                <a className='btn' href="https://drive.google.com/file/d/1iNvB3XwAods7lczZWYHnhteprQXbckJ9/view?usp=sharing" target='_blank'>download cv <span className="icon-cloud-download"></span></a>
             </section>
             <section className="animation-hero">
                 <Lottie animationData={personalAnimation} className="animation" />

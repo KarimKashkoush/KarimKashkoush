@@ -38,7 +38,7 @@ export default function About() {
                         </section>
                     </section>
 
-                    <a className='more' target='_blank' href='/public/Karim-Mohamed-Kashkoush-CV.pdf'>View more <span className='icon-arrow_forward'></span></a>
+                    <a className='btn' target='_blank' href='/public/Karim-Mohamed-Kashkoush-CV.pdf'>View more <span className='icon-arrow_forward'></span></a>
 
                     <section className="social">
                         <Link to='http://wa.me/+201033113646' target='_blank'><span className="icon-whatsapp"></span></Link>

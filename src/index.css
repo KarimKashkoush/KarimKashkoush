@@ -59,6 +59,24 @@ button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  display: block;
+}
+
+.btn {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  width: fit-content;
+  border: 1px solid transparent;
+  transition: var(--transition-3);
+  border: 2px solid var(--border);
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+.btn:hover {
+  border-color: var(--border-hover);
 }
 
 button:active {

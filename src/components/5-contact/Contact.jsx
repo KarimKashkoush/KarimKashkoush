@@ -10,13 +10,13 @@ export default function Contact() {
             <section className="title-section">
                 <h2>contact us</h2>
             </section>
-            <p><span className="icon-email"></span> contact us for more information and get notified when i puplish somthing new</p>
+            <p>contact us for more information and get notified when i puplish somthing new</p>
             <section className="content">
                 <form>
                     <input type="text" placeholder="Enter Your Name" />
                     <input type="email" placeholder="Enter Your email" />
                     <textarea placeholder="Enter Your Massege"></textarea>
-                    <button>Send</button>
+                    <button className="btn">Send</button>
                 </form>
                 <section className="animation-contact">
                     <Lottie animationData={personalAnimation} className="animation" />
