@@ -30,7 +30,7 @@ import firebaseLogo from '../../../public/images/icons8-firebase.svg'
 
 export default function Skills() {
     return (
-        <section className="skills">
+        <section className="skills" id='skills'>
             <h2 className="title-section">
                 Skills
             </h2>

@@ -6,7 +6,7 @@ import image from '../../../public/images/personal-image.png'
 import personalAnimation from '../../../public/animation/Animation - 1712407466275.json'
 export default function Hero() {
     return (
-        <section className="hero">
+        <section className="hero" id='home'>
             <section className="content">
                 <section className="image-title">
                     <img src={image} alt="" />

@@ -40,19 +40,19 @@ export default function Header() {
 
                 <ul className="nav-list">
                     <li className="nav-item" >
-                        <NavLink to="/about" className='nav-link'>about</NavLink>
+                        <a href="#home" className='nav-link'>Home</a>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/articles" className='nav-link'>articles</NavLink>
+                        <a href="#about" className='nav-link'>about</a>
                     </li>
                     <li className="nav-item">
-                        <Link to="#projects" className='nav-link'>projects</Link>
+                        <a href="#projects" className='nav-link'>projects</a>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/speaking" className='nav-link'>speaking</NavLink>
+                        <a href="#skills" className='nav-link'>skills</a>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/uses" className='nav-link'>uses</NavLink>
+                        <a href="#contact" className='nav-link'>contact</a>
                     </li>
                 </ul>
             </nav>

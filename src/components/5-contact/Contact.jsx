@@ -6,7 +6,7 @@ import personalAnimation from '../../../public/animation/contact-us.json'
 
 export default function Contact() {
     return (
-        <section className="contact-us">
+        <section className="contact-us" id="contact">
             <section className="title-section">
                 <h2>contact us</h2>
             </section>
