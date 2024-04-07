@@ -26,6 +26,11 @@
     width: 450px;
 }
 
+.contact-us .content form input:hover,textarea:hover,
+.contact-us .content form input:focus,textarea:focus {
+    border: 2px solid var(--border-hover)
+}
+
 .contact-us .content form input::placeholder,textarea::placeholder {
     color: var(--text-color);
 }
