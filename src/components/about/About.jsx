@@ -22,17 +22,17 @@ export default function About() {
 
                     <section className="experiences">
                         <section className="box">
-                            <span>12</span>
+                            <span className='icon-suitcase'></span>
                             <h5>Experience</h5>
                             <p>one year working</p>
                         </section>
                         <section className="box">
-                            <span>12</span>
+                            <span className='icon-award-fill'></span>
                             <h5>completed</h5>
                             <p>+15 projects</p>
                         </section>
                         <section className="box">
-                            <span>12</span>
+                            <span className='icon-contact_phone'></span>
                             <h5>Support</h5>
                             <p>Online 24/7</p>
                         </section>
