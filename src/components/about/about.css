@@ -12,7 +12,7 @@
 }
 
 
-.about .content .title>p {
+.about .content .title > p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -55,15 +55,15 @@
     }
 
     .about .content .title .experiences,
-    .about .content .social  {
+    .about .content .social {
         justify-content: center;
     }
 
-    .about .content .title  p {
+    .about .content .title p {
         margin-bottom: 40px;
     }
 
-    .about .content .title .more {
+    .about .content .title .btn {
         margin: 15px auto 30px;
     }
 }
