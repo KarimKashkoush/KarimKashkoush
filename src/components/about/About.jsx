@@ -24,7 +24,7 @@ export default function About() {
                         <section className="box">
                             <span>12</span>
                             <h5>Experience</h5>
-                            <p>1 years working</p>
+                            <p>one year working</p>
                         </section>
                         <section className="box">
                             <span>12</span>

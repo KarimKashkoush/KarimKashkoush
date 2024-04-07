@@ -41,8 +41,8 @@ export default function Projects() {
                     <Link to="https://leon-4zg4wkmj4-karimkashkoush.vercel.app/" className="project">
                         <img src={p1} />
                         <section className="title">
-                            <h4>project 1</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque culpa iure laudantium?</p>
+                            <h4>landing page</h4>
+                            <p>static landing page is designed using Html and Css</p>
                             <section className="links">
                                 <Link to="https://leon-4zg4wkmj4-karimkashkoush.vercel.app/" className='icon-link1'></Link>
                                 <Link to="https://github.com/KarimKashkoush/Leon" className='icon-github'></Link>
@@ -52,8 +52,8 @@ export default function Projects() {
                     <Link to="https://karim-9qa946dkd-karimkashkoush.vercel.app/" className="project">
                         <img src={p2} />
                         <section className="title">
-                            <h4>project 1</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque culpa iure laudantium?</p>
+                            <h4>landing page</h4>
+                            <p>static landing page is designed using Html and Css</p>
                             <section className="links">
                                 <Link to="https://karim-9qa946dkd-karimkashkoush.vercel.app/" className='icon-link1'></Link>
                                 <Link to="https://github.com/KarimKashkoush/Karim" className='icon-github'></Link>
@@ -63,8 +63,8 @@ export default function Projects() {
                     <Link to="https://kasper-hvz2fwlws-karimkashkoush.vercel.app/" className="project">
                         <img src={p3} />
                         <section className="title">
-                            <h4>project 1</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque culpa iure laudantium?</p>
+                            <h4>landing page</h4>
+                            <p>static landing page is designed using Html and Css</p>
                             <section className="links">
                                 <Link to="https://kasper-hvz2fwlws-karimkashkoush.vercel.app/" className='icon-link1'></Link>
                                 <Link to="https://github.com/KarimKashkoush/Kasper" className='icon-github'></Link>
@@ -75,8 +75,8 @@ export default function Projects() {
                     <Link to="https://turbino-gym.vercel.app/" className="project">
                         <img src={p4} />
                         <section className="title">
-                            <h4></h4>
-                            <p></p>
+                            <h4>landing page</h4>
+                            <p>static landing page is designed using Html and Css</p>
                             <section className="links">
                                 <Link to="https://turbino-gym.vercel.app/" className='icon-link1'></Link>
                                 <Link to="https://github.com/KarimKashkoush/Turbino-Gym" className='icon-github'></Link>
@@ -87,8 +87,8 @@ export default function Projects() {
                     <Link to="https://steller-five.vercel.app/" className="project">
                         <img src={p5} />
                         <section className="title">
-                            <h4></h4>
-                            <p></p>
+                            <h4>landing page</h4>
+                            <p>static landing page is designed using Html and Css</p>
                             <section className="links">
                                 <Link to="https://steller-five.vercel.app/" className='icon-link1'></Link>
                                 <Link to="https://github.com/KarimKashkoush/Steller" className='icon-github'></Link>
@@ -99,8 +99,8 @@ export default function Projects() {
                     <Link to="https://farah-ashraf.vercel.app/" className="project">
                         <img src={p6} />
                         <section className="title">
-                            <h4></h4>
-                            <p></p>
+                            <h4>portfolio page</h4>
+                            <p>static landing page is designed using React</p>
                             <section className="links">
                                 <Link to="https://farah-ashraf.vercel.app/" className='icon-link1'></Link>
                                 <Link to="https://github.com/KarimKashkoush/Farah-Ashraf" className='icon-github'></Link>
@@ -111,8 +111,8 @@ export default function Projects() {
                     <Link to="https://d-sherif-abdelbaeth.vercel.app/" className="project">
                         <img src={p7} />
                         <section className="title">
-                            <h4></h4>
-                            <p></p>
+                            <h4>landing page</h4>
+                            <p>static landing page is designed using Html, Css and Js</p>
                             <section className="links">
                                 <Link to="https://d-sherif-abdelbaeth.vercel.app/" className='icon-link1'></Link>
                                 <Link to="https://github.com/KarimKashkoush/D.Sherif.Abdelbaeth" className='icon-github'></Link>
@@ -123,8 +123,8 @@ export default function Projects() {
                     <Link to="https://spyro-gym-one.vercel.app/" className="project">
                         <img src={p8} />
                         <section className="title">
-                            <h4></h4>
-                            <p></p>
+                            <h4>landing page</h4>
+                            <p>static landing page is designed using Html, Css and Js</p>
                             <section className="links">
                                 <Link to="https://spyro-gym-one.vercel.app/" className='icon-link1'></Link>
                                 <Link to="https://github.com/KarimKashkoush/Spyro-Gym" className='icon-github'></Link>
@@ -135,8 +135,8 @@ export default function Projects() {
                     <Link to="https://responsive-bakery.vercel.app/" className="project">
                         <img src={p9} />
                         <section className="title">
-                            <h4></h4>
-                            <p></p>
+                            <h4>landing page</h4>
+                            <p>static landing page is designed using Html, Css and Js</p>
                             <section className="links">
                                 <Link to="https://responsive-bakery.vercel.app/" className='icon-link1'></Link>
                                 <Link to="https://github.com/KarimKashkoush/responsive-bakery" className='icon-github'></Link>
@@ -147,8 +147,8 @@ export default function Projects() {
                     <Link to="https://bsa-lake.vercel.app/" className="project">
                         <img src={p10} />
                         <section className="title">
-                            <h4></h4>
-                            <p></p>
+                            <h4>landing page</h4>
+                            <p>static landing page is designed using Html, Css and Js</p>
                             <section className="links">
                                 <Link to="https://bsa-lake.vercel.app/" className='icon-link1'></Link>
                                 <Link to="https://github.com/KarimKashkoush/BSA-Form" className='icon-github'></Link>

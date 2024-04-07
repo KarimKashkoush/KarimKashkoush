@@ -11,7 +11,7 @@ import { useState, useEffect } from 'react';
 
 
 const LoadingIndicator = () => {
-    return <Loading />;
+    return (<Loading />);
 };
 
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
 
     useEffect(() => {
         // Simulate a delay to demonstrate loading
-        
+
 
         const timer = setTimeout(() => {
             setIsLoading(false);
@@ -28,7 +28,6 @@ export default function App() {
             };
         }, 3000);
 
-        // Hide loading indicator when the page is fully loaded
 
         return () => clearTimeout(timer);
     }, []);
