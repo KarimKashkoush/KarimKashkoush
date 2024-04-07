@@ -85,3 +85,12 @@
 .icon-facebook:before {
   content: "\e904";
 }
+.icon-award-fill:before {
+  content: "\e90c";
+}
+.icon-contact-phone:before {
+  content: "\e90d";
+}
+.icon-suitcase:before {
+  content: "\e90e";
+}

@@ -43,13 +43,12 @@
     max-width: 500px;
 }
 
-.hero .content .social {
+.social {
     display: flex;
     gap: 20px;
-    margin-bottom: 15px;
 }
 
-.hero .content .social a {
+.social a {
     font-size: 1.4rem;
 }
 
@@ -60,14 +59,16 @@
     padding: 10px 15px;
     border-radius: 100px;
     text-transform: capitalize;
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 1.2rem;
     transition: var(--transition-3);
     border: 1px solid transparent;
+    border: 2px solid var(--border);
+
 }
 
 .hero .content .cv:hover {
-    border-color: rgba(244, 165, 96, 0.294);
+    border-color: var(--border-hover);
 }
 
 .hero .content .cv span {

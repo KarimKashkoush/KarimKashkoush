@@ -13,8 +13,10 @@ html {
   --text-color-minwidth: rgb(212 212 216);
   --link-hover: rgb(45 212 191);
   --border: rgba(63, 63, 70, 0.4);
+  --border-hover: rgba(244, 165, 96, 0.294);
   --bg-color: #252529;
   --icon-theme-color: gold;
+  --icon-theme-color-hover: rgb(207, 176, 0);
   --transition-3: all 0.3s;
 }
 
@@ -23,11 +25,13 @@ html {
   --pimary: rgb(250,250,250);
   --secondary: rgb(255,255,255);
   --border: rgba(202,202,202,0.518);
+  --border-hover: (0 149 246);
   --text-color: rgb(39 39 42);
   --bg-color: rgb(240, 238, 238);
   --light-color: #fff;
   --link-hover: rgb(0 149 246);
-  --icon-theme-color: #000;
+  --icon-theme-color: #000000bf;
+  --icon-theme-color-hover: rgb(0, 0, 0);
   
   --text-color-minwidth: rgb(212 212 216);
 }
@@ -90,6 +94,18 @@ a,
 li,
 section {
   color: var(--text-color);
+}
+
+.light h1,
+.light h2,
+.light h3,
+.light h4,
+.light h5,
+.light h6,
+.light a,
+.light li,
+.light section {
+  --text-color: rgb(39 39 42);
 }
 
 .line {

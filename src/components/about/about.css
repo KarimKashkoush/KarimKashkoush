@@ -1,0 +1,86 @@
+.about .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-transform: capitalize;
+}
+
+.about .content .title,
+.about .content .image {
+    flex: 1;
+}
+
+
+.about .content .title>p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about .content .title .experiences {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.about .content .title .experiences .box {
+    border: 2px solid var(--border);
+    background-color: var(--bg-color);
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    transition: var(--transition-3);
+    border-radius: 5px;
+}
+
+.about .content .title .experiences .box:hover {
+    border-color: var(--border-hover);
+}
+
+.about .content .title .more {
+    display: block;
+    margin: 15px 0 30px;
+    padding: 10px 15px;
+    border-radius: 100px;
+    background-color: var(--bg-color);
+    width: fit-content;
+    border: 1px solid transparent;
+    transition: var(--transition-3);
+    border: 2px solid var(--border);
+}
+
+.about .content .title .more:hover {
+    border-color: var(--border-hover);
+}
+
+@media (max-width: 1300px) {
+    .about .content {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about .content .title .experiences,
+    .about .content .social  {
+        justify-content: center;
+    }
+
+    .about .content .title  p {
+        margin-bottom: 40px;
+    }
+
+    .about .content .title .more {
+        margin: 15px auto 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .about .content .title .experiences {
+        flex-direction: column;
+    }
+}

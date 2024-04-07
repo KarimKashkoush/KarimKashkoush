@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import './header.css'
 
 export default function Header() {
-    const [theme, setTheme] = useState(localStorage.getItem('Mood'))
+    const [theme, setTheme] = useState(localStorage.getItem('Mood') ?? 'dark')
 
     useEffect(()=>{
         if (theme === 'light') {
