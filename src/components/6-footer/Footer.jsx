@@ -14,18 +14,21 @@ export default function Footer() {
                 <Link to='https://github.com/KarimKashkoush' target='_blank'><span className="icon-github"></span></Link>
             </section>
             <section className="links">
-                <ul>
-                    <li>
-                        <Link to='\'>About</Link>
+                <ul className="nav-list">
+                    <li className="nav-item" >
+                        <a href="#home" className='nav-link'>Home</a>
                     </li>
-                    <li>
-                        <Link to='\'>Articles</Link>
+                    <li className="nav-item">
+                        <a href="#about" className='nav-link'>about</a>
                     </li>
-                    <li>
-                        <Link to='\'>Speaking</Link>
+                    <li className="nav-item">
+                        <a href="#projects" className='nav-link'>projects</a>
                     </li>
-                    <li>
-                        <Link to='\'>Uses</Link>
+                    <li className="nav-item">
+                        <a href="#skills" className='nav-link'>skills</a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="#contact" className='nav-link'>contact</a>
                     </li>
                 </ul>
             </section>

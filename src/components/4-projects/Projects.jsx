@@ -32,10 +32,10 @@ export default function Projects() {
             </h2>
             <section className="content">
                 <section className="filter">
-                    <button>All Projects</button>
-                    <button>Html& Css</button>
-                    <button>Html& Css & Js</button>
-                    <button>React & MUI</button>
+                    <button className='btn'>All Projects</button>
+                    <button className='btn'>Html& Css</button>
+                    <button className='btn'>Html& Css & Js</button>
+                    <button className='btn'>React & MUI</button>
                 </section>
                 <section className="all-projects">
                     <Link to="https://leon-4zg4wkmj4-karimkashkoush.vercel.app/" className="project">
