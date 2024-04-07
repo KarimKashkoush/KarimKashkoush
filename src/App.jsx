@@ -5,7 +5,7 @@ import Skills from "../src/components/3-skills/Skills"
 import Projects from "../src/components/4-projects/Projects"
 import Contact from "../src/components/5-contact/Contact"
 import Footer from "../src/components/6-footer/Footer"
-
+import Scroll from "../src/components/scrollTop/Scroll"
 
 export default function App() {
     return (
@@ -33,6 +33,9 @@ export default function App() {
             <div className="line" />
             <section className="content">
                 <Footer />
+            </section>
+            <section className="content">
+                <Scroll />
             </section>
         </section>
     )

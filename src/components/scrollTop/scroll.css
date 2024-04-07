@@ -1,0 +1,15 @@
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--bg-color);
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid var(--border);
+    transition: var(--transition-3);
+}
+
+.scroll:hover {
+    border-color: var(--border-hover);
+}
