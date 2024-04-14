@@ -22,7 +22,10 @@ import p9 from '../../components/4-projects/p-9/p9.png'
 // @ts-ignore
 import p10 from '../../components/4-projects/p-10/p10.png'
 // @ts-ignore
-import p11 from '../../components/4-projects/p-7/p-7.png'
+import p11 from '../../components/4-projects/p-11/p-11.png'
+// @ts-ignore
+import p12 from '../../components/4-projects/p-12/p-12.png'
+// @ts-ignore
 
 
 import { useState } from 'react'
@@ -39,7 +42,7 @@ export default function Projects() {
             p: "static landing page is designed using Html and Css",
             src: "https://leon-4zg4wkmj4-karimkashkoush.vercel.app/",
             codeSrc: 'https://github.com/KarimKashkoush/leon',
-            ategory: 'Category A'
+            category: 'Category A'
         },
         {
             id: 2,
@@ -90,10 +93,10 @@ export default function Projects() {
             id: 7,
             name: 'landing page',
             img: `${p7}`,
-            p: "static landing page is designed using Html, Css and Js",
-            src: "https://d-sherif-abdelbaeth.vercel.app/",
-            codeSrc: 'https://github.com/KarimKashkoush/D.Sherif.Abdelbaeth',
-            category: 'Category B'
+            p: "static landing page is designed using React",
+            src: "https://sherif.vercel.app/",
+            codeSrc: 'https://github.com/KarimKashkoush/sherif',
+            category: 'Category C'
         },
         {
             id: 8,
@@ -124,13 +127,23 @@ export default function Projects() {
         },
         {
             id: 11,
-            name: 'landing page',
+            name: 'portfolio page',
             img: `${p11}`,
             p: "static landing page is designed using React",
-            src: "https://sherif.vercel.app/",
-            codeSrc: 'https://github.com/KarimKashkoush/sherif',
+            src: "https://rofieda-kashkoush.vercel.app/",
+            codeSrc: 'https://github.com/KarimKashkoush/RofiedaKashkoush',
             category: 'Category C'
         },
+        {
+            id: 12,
+            name: 'pRegistration page',
+            img: `${p12}`,
+            p: "static landing page is designed using React",
+            src: "https://al-maali.vercel.app/",
+            codeSrc: 'https://github.com/KarimKashkoush/AlMaali',
+            category: 'Category C'
+        },
+        
     ];
 
     // Function to handle button click and set the filter value
