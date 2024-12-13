@@ -2,7 +2,7 @@ import "./hero.css"
 import { Link } from "react-router-dom"
 import Lottie from "lottie-react";
 // @ts-ignore
-import image from '../../../public/images/personal-image.png'
+import image from '../../../public/images/personal-image.jpg'
 import personalAnimation from '../../../public/animation/Animation - 1712407466275.json'
 export default function Hero() {
     return (

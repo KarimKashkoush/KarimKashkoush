@@ -168,6 +168,7 @@ export default function Projects() {
                     <button onClick={() => { setCurrentBtn('React & MUI'); handleFilterClick('Category C') }} className={`btn ${currentBtn === "React & MUI" ? "active" : null}`} >React & MUI</button>
                 </section>
                 <section className="all-projects">
+                    
                     {filteredProjects.map((project) => (
                         <a key={project.id} className='project' href={project.src}>
                             <img src={project.img} />
