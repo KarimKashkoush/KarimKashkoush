@@ -82,7 +82,7 @@ export default function Projects() {
         },
         {
             id: 6,
-            name: 'portfolio page',
+            name: 'Portfolio page',
             img: `${p6}`,
             p: "static landing page is designed using React",
             src: "https://farah-ashraf.vercel.app/",
@@ -91,7 +91,7 @@ export default function Projects() {
         },
         {
             id: 7,
-            name: 'landing page',
+            name: 'Landing page',
             img: `${p7}`,
             p: "static landing page is designed using React",
             src: "https://sherif.vercel.app/",
@@ -100,7 +100,7 @@ export default function Projects() {
         },
         {
             id: 8,
-            name: 'landing page',
+            name: 'Landing page',
             img: `${p8}`,
             p: "static landing page is designed using Html, Css and Js",
             src: "https://spyro-gym-one.vercel.app/",
@@ -109,7 +109,7 @@ export default function Projects() {
         },
         {
             id: 9,
-            name: 'landing page',
+            name: 'Landing page',
             img: `${p9}`,
             p: "static landing page is designed using Html, Css and Js",
             src: "https://responsive-bakery.vercel.app/",
@@ -118,7 +118,7 @@ export default function Projects() {
         },
         {
             id: 10,
-            name: 'landing page',
+            name: 'Landing page',
             img: `${p10}`,
             p: "static landing page is designed using Html, Css and Js",
             src: "https://bsa-lake.vercel.app/",
@@ -127,7 +127,7 @@ export default function Projects() {
         },
         {
             id: 11,
-            name: 'portfolio page',
+            name: 'Portfolio page',
             img: `${p11}`,
             p: "static landing page is designed using React",
             src: "https://rofieda-kashkoush.vercel.app/",
@@ -136,7 +136,7 @@ export default function Projects() {
         },
         {
             id: 12,
-            name: 'pRegistration page',
+            name: 'Registration page',
             img: `${p12}`,
             p: "static landing page is designed using React",
             src: "https://al-maali.vercel.app/",
